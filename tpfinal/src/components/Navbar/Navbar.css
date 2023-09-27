@@ -1,0 +1,35 @@
+/* Estilos para el navbar */
+.navb {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  /* Estilos para la lista no ordenada (ul) */
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Estilos para los elementos de lista (li) */
+  li {
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para los enlaces (a) dentro de los elementos de lista (li) */
+  li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Estilos para los elementos de lista (li) cuando se pasa el mouse por encima */
+  li:hover {
+    background-color: #8d8f91; /* Cambia el color a tu preferencia */
+    transition: .6s;
+    border-radius: 4px;
+  }
+  

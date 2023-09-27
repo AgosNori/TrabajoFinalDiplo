@@ -1,27 +1,15 @@
-import Nav from 'react-bootstrap/Nav/';
 
-function Navbar() {
+import '../Navbar/Navbar.css';
+const Navbar = () => {
   return (
-    <Nav
-      activeKey="/home"
-      onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
-    >
-      <Nav.Item>
-        <Nav.Link href="/home">Active</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="link-1">Link</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="link-2">Link</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="disabled" disabled>
-          Disabled
-        </Nav.Link>
-      </Nav.Item>
-    </Nav>
+    <nav className='navb'>
+      <ul className='list'>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/acerca">Acerca de</a></li>
+        <li><a href="/contacto">Contacto</a></li>
+      </ul>
+    </nav>
   );
-}
+};
 
 export default Navbar;

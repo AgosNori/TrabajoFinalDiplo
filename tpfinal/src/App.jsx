@@ -122,7 +122,7 @@ function App() {
 export default App;
 */
 
-import { Link } from 'react-router-dom';
+
 import Navbar from './components/Navbar/Navbar';
 import Productos from './components/Productos/Productos';
 import Usuarios from './components/Usuarios/Usuarios';
@@ -132,9 +132,9 @@ function App() {
   return (
     <div>
      
-      <Navbar/>
+    <Navbar/>
      {/* <Link to={"/productos"}> Ir a productos.</Link>*/}
-      <Productos/>
+ <Productos/>
       <Usuarios/>
   
     </div>

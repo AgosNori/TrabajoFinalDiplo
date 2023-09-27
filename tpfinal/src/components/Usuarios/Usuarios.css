@@ -1,0 +1,63 @@
+/* tipografia de letra */
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+
+/* estilos universales*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inclusive Sans', sans-serif;
+}
+/* Estilo para el título h1 */
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black; /* Color azul */
+  }
+.users{
+  display: flex;
+  justify-content: center;
+
+}
+  /* Estilo para el contenedor ul */
+  ul.container {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Estilo para los elementos li */
+  ul.container > li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #b0aab1; 
+  }
+  .logo{
+    display: flex;
+    margin-left: 90%;
+  }
+  /* Estilo para el ID */
+  ul.container > li strong {
+    font-weight: bold;
+    
+  }
+  
+  /* Estilo para el nombre */
+  ul.container > li .name {
+    font-weight: bold;
+    color: black; 
+  }
+  
+  /* Estilo para el usuario */
+  ul.container > li .username {
+    color: black;
+  }
+  
+  /* Estilo para la fecha de nacimiento */
+  ul.container > li .birthdate {
+    color: black; 
+  }
+  
